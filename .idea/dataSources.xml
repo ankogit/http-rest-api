@@ -13,5 +13,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/restapi_test</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="restapi_dev@localhost [2]" uuid="1fef3eb1-0125-47bb-b344-947805b0f071">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/restapi_dev</jdbc-url>
+    </data-source>
   </component>
 </project>
