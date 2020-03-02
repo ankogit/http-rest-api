@@ -15,7 +15,6 @@ type APIServer struct {
 	store *store.Store
 
 }
-
 // New ...
 func  New(config *Config) *APIServer  {
 	return &APIServer{

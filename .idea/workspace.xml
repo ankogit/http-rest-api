@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3e05e26-ce5b-48c5-a00a-c5652fdfb061" name="Default Changelist" comment="" />
+    <list default="true" id="a3e05e26-ce5b-48c5-a00a-c5652fdfb061" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3db4d195-b6b1-426f-90fe-01e132c7b426.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3db4d195-b6b1-426f-90fe-01e132c7b426.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3db4d195-b6b1-426f-90fe-01e132c7b426/storage_v2/_src_/database/restapi_dev.HP7mKw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3db4d195-b6b1-426f-90fe-01e132c7b426/storage_v2/_src_/database/restapi_dev.HP7mKw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/store.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,36 +36,6 @@
         <item name="restapi_dev@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="restapi_dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="restapi_dev: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="restapi_dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="restapi_dev: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="restapi_dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="restapi_dev: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="restapi_dev@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="restapi_dev: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
@@ -69,10 +47,16 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1YWiKZWVza6QfmHKKyXfp4VciGh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -87,13 +71,14 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/internal/app/store" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/internal/app/store" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile.tables.go">
+  <component name="RunManager" selected="Go Test.TestUserRepository_FindByEmail in github.com/ankogit/http-rest-api/internal/app/store">
     <configuration name="TestAPIServer_HandleHello in github.com/ankogit/http-rest-api/internal/app/apiserver" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="http-rest-api" />
       <working_directory value="$PROJECT_DIR$/internal/app/apiserver" />
@@ -103,6 +88,28 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestAPIServer_HandleHello$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ankogit/http-rest-api/internal/app/store" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserRepository_Create$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserRepository_FindByEmail in github.com/ankogit/http-rest-api/internal/app/store" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/store" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ankogit/http-rest-api/internal/app/store" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserRepository_FindByEmail$" />
       <method v="2" />
     </configuration>
     <configuration name="tables.go" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
@@ -119,6 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestUserRepository_FindByEmail in github.com/ankogit/http-rest-api/internal/app/store" />
+        <item itemvalue="Go Test.TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store" />
         <item itemvalue="Makefile.tables.go" />
         <item itemvalue="Go Test.TestAPIServer_HandleHello in github.com/ankogit/http-rest-api/internal/app/apiserver" />
         <item itemvalue="Makefile.test" />
@@ -133,12 +142,7 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:restapi_dev@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:restapi_dev@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@2ac73be" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="root:restapi_test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -150,6 +154,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>direct</proxy>
@@ -159,10 +176,10 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="555" y="215" width="800" height="673" key="#SQL_Dialects/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583085269919" />
-    <state x="555" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583087577423">
+    <state x="555" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583105234082">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="555" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583087577423" />
+    <state x="555" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583105234082" />
     <state x="659" y="359" width="591" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583066690185">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
@@ -171,25 +188,37 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="743" y="312" width="424" height="480" key="FileChooserDialogImpl/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583082197806" />
-    <state width="1874" height="288" key="GridCell.Tab.0.bottom" timestamp="1583082235157">
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom" timestamp="1583107397805">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583082235157" />
-    <state width="1874" height="288" key="GridCell.Tab.0.center" timestamp="1583082235157">
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
+    <state width="1874" height="265" key="GridCell.Tab.0.center" timestamp="1583107397805">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583082235157" />
-    <state width="1874" height="288" key="GridCell.Tab.0.left" timestamp="1583082235157">
+    <state width="1874" height="265" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
+    <state width="1874" height="265" key="GridCell.Tab.0.left" timestamp="1583107397805">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583082235157" />
-    <state width="1874" height="288" key="GridCell.Tab.0.right" timestamp="1583082235157">
+    <state width="1874" height="265" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
+    <state width="1874" height="265" key="GridCell.Tab.0.right" timestamp="1583107397805">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583082235157" />
-    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1583081893490">
+    <state width="1874" height="265" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
+    <state x="687" y="199" key="SettingsEditor" timestamp="1583104481806">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583081893490" />
+    <state x="687" y="199" key="SettingsEditor/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583104481806" />
+    <state x="823" y="291" width="264" height="522" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1583105195177">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="823" y="291" width="264" height="522" key="com.intellij.database.view.ui.DbObjectDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583105195177" />
+    <state x="704" y="427" width="714" height="297" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1583103893310">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="704" y="427" width="714" height="297" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583103893310" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1583105599718">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583105599718" />
   </component>
 </project>
