@@ -1,19 +1,19 @@
 package teststore
 
 import (
-	"errors"
 	"github.com/ankogit/http-rest-api/internal/app/model"
+	"github.com/ankogit/http-rest-api/internal/app/store"
 )
 
-//UserRepository ...
+
+// UserRepository ...
 type UserRepository struct {
 	store *Store
 	users map[string]*model.User
-
 }
 
-//Create ...
-func (r *UserRepository) Create(u *model.User) error  {
+// Create ...
+func (r *UserRepository) Create(u *model.User) error {
 	if err := u.Validate(); err != nil {
 		return err
 	}
@@ -28,14 +28,12 @@ func (r *UserRepository) Create(u *model.User) error  {
 	return nil
 }
 
-
-//FindByEmail
+// FindByEmail ...
 func (r *UserRepository) FindByEmail(email string) (*model.User, error) {
 	u, ok := r.users[email]
 	if !ok {
-		return nil, errors.New("not found")
+		return nil, store.ErrRecordNotFound
 	}
-
 
 	return u, nil
 }

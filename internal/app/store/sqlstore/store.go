@@ -3,28 +3,29 @@ package sqlstore
 import (
 	"database/sql"
 	"github.com/ankogit/http-rest-api/internal/app/store"
-
-	_ "github.com/lib/pq"
 )
 
+// Store ...
 type Store struct {
-	db *sql.DB
+	db             *sql.DB
 	userRepository *UserRepository
 }
 
-func New(db *sql.DB) *Store  {
+// New ...
+func New(db *sql.DB) *Store {
 	return &Store{
 		db: db,
 	}
 }
 
+// User ...
 func (s *Store) User() store.UserRepository {
 	if s.userRepository != nil {
-		return  s.userRepository
+		return s.userRepository
 	}
 
 	s.userRepository = &UserRepository{
-		store:s,
+		store: s,
 	}
 
 	return s.userRepository

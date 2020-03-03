@@ -1,15 +1,17 @@
 package apiserver
 
 
+// Config ...
 type Config struct {
-	BingAddr string `toml:"bind_addr"`
-	LogLevel string `toml:"log_level"`
+	BindAddr    string `toml:"bind_addr"`
+	LogLevel    string `toml:"log_level"`
 	DatabaseURL string `toml:"database_url"`
 }
 
-func NewConfig() *Config  {
+// NewConfig ...
+func NewConfig() *Config {
 	return &Config{
-		BingAddr:":8080",
+		BindAddr: ":8080",
 		LogLevel: "debug",
 	}
 }

@@ -2,6 +2,7 @@ package teststore_test
 
 import (
 	"github.com/ankogit/http-rest-api/internal/app/model"
+	"github.com/ankogit/http-rest-api/internal/app/store"
 	"github.com/ankogit/http-rest-api/internal/app/store/teststore"
 	"github.com/stretchr/testify/assert"
 	"testing"
@@ -11,20 +12,17 @@ func TestUserRepository_Create(t *testing.T) {
 	s := teststore.New()
 	u := model.TestUser(t)
 	assert.NoError(t, s.User().Create(u))
-	assert.NotNil(t, u)
+	assert.NotNil(t, u.ID)
 }
 
 func TestUserRepository_FindByEmail(t *testing.T) {
 	s := teststore.New()
-	email := "user@mail.com"
-	_, err := s.User().FindByEmail(email)
-	assert.Error(t, err)
+	u1 := model.TestUser(t)
+	_, err := s.User().FindByEmail(u1.Email)
+	assert.EqualError(t, err, store.ErrRecordNotFound.Error())
 
-
-	u := model.TestUser(t)
-	u.Email = email
-	s.User().Create(u)
-	u, err = s.User().FindByEmail(email)
+	s.User().Create(u1)
+	u2, err := s.User().FindByEmail(u1.Email)
 	assert.NoError(t, err)
-	assert.NotNil(t, u)
+	assert.NotNil(t, u2)
 }

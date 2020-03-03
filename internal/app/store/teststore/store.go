@@ -5,22 +5,24 @@ import (
 	"github.com/ankogit/http-rest-api/internal/app/store"
 )
 
-
+// Store ...
 type Store struct {
 	userRepository *UserRepository
 }
 
-func New() *Store  {
-
+// New ...
+func New() *Store {
+	return &Store{}
 }
 
+// User ...
 func (s *Store) User() store.UserRepository {
 	if s.userRepository != nil {
-		return  s.userRepository
+		return s.userRepository
 	}
 
 	s.userRepository = &UserRepository{
-		store:s,
+		store: s,
 		users: make(map[string]*model.User),
 	}
 

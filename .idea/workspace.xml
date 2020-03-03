@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3e05e26-ce5b-48c5-a00a-c5652fdfb061" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/testing.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apiserver" beforeDir="false" afterPath="$PROJECT_DIR$/apiserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/apiserver.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/apiserver.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/apiserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/apiserver/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/apiserver_internal_test.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/app/apiserver/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/model/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/store/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/store/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/store.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/store/store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/store_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/store/testing.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/store/userrepository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/store/userrepository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/sqlstore/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/sqlstore/store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/store_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/sqlstore/testing.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/testing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/sqlstore/userrepository_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/teststore/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/teststore/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/teststore/userrepository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/teststore/userrepository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/teststore/userrepository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/teststore/userrepository_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,18 +129,7 @@
       <recent name="$PROJECT_DIR$/internal/app/store" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestUserRepository_FindByEmail in github.com/ankogit/http-rest-api/internal/app/store/teststore">
-    <configuration name="TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="http-rest-api" />
-      <working_directory value="$PROJECT_DIR$/internal/app/store" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/ankogit/http-rest-api/internal/app/store" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUserRepository_Create$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store/teststore">
     <configuration name="TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store/sqlstore" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="http-rest-api" />
       <working_directory value="$PROJECT_DIR$/internal/app/store/sqlstore" />
@@ -188,13 +174,24 @@
       <pattern value="^TestUserRepository_FindByEmail$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestUser_Validate in github.com/ankogit/http-rest-api/internal/app/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ankogit/http-rest-api/internal/app/model" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUser_Validate$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestUserRepository_FindByEmail in github.com/ankogit/http-rest-api/internal/app/store/teststore" />
         <item itemvalue="Go Test.TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store/teststore" />
-        <item itemvalue="Go Test.TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store/sqlstore" />
+        <item itemvalue="Go Test.TestUserRepository_FindByEmail in github.com/ankogit/http-rest-api/internal/app/store/teststore" />
         <item itemvalue="Go Test.TestUserRepository_FindByEmail in github.com/ankogit/http-rest-api/internal/app/store/sqlstore" />
-        <item itemvalue="Go Test.TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store" />
+        <item itemvalue="Go Test.TestUserRepository_Create in github.com/ankogit/http-rest-api/internal/app/store/sqlstore" />
+        <item itemvalue="Go Test.TestUser_Validate in github.com/ankogit/http-rest-api/internal/app/model" />
       </list>
     </recent_temporary>
   </component>
@@ -240,11 +237,11 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="555" y="215" width="800" height="673" key="#SQL_Dialects/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583085269919" />
-    <state x="555" y="213" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583150342341">
+    <state x="555" y="213" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583231482986">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="555" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583105234082" />
-    <state x="555" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583150342341" />
+    <state x="555" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583231482986" />
     <state x="659" y="359" width="591" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583066690185">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
@@ -253,26 +250,26 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="743" y="312" width="424" height="480" key="FileChooserDialogImpl/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583082197806" />
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1583162090192">
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1583236664803">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583162090192" />
-    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1583162090190">
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583236664803" />
+    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1583236664800">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
-    <state width="1878" height="344" key="GridCell.Tab.0.center/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583162090190" />
-    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1583162090189">
+    <state width="1878" height="344" key="GridCell.Tab.0.center/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583236664800" />
+    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1583236664799">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
-    <state width="1878" height="344" key="GridCell.Tab.0.left/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583162090189" />
-    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1583162090191">
+    <state width="1878" height="344" key="GridCell.Tab.0.left/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583236664799" />
+    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1583236664802">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1583107397805" />
-    <state width="1878" height="344" key="GridCell.Tab.0.right/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583162090191" />
+    <state width="1878" height="344" key="GridCell.Tab.0.right/1920.149.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583236664802" />
     <state width="219" height="498" key="HiddenNamespacesPopup" timestamp="1583150272437">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
